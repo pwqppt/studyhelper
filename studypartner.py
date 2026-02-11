@@ -4,10 +4,8 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
 from openai import OpenAI
-from dotenv import load_dotenv
 import base64
 
-load_dotenv("key.env")
 client = OpenAI()
 
 import uuid
@@ -142,4 +140,5 @@ else:
     
     
 # 실행 방법 안내
+
 # 터미널에 'streamlit run (파일명)' 입력

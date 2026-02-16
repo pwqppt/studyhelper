@@ -1,5 +1,4 @@
-streamlit>=1.31.0
-PyPDF2>=3.0.1
-langchain>=0.1.0
-langchain-openai>=0.0.6
-openai>=1.6.0
+streamlit
+langchain-google-genai
+langchain-core
+pypdf
